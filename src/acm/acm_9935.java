@@ -1,11 +1,11 @@
-// https://www.acmicpc.net/problem/9935
+package acm;// https://www.acmicpc.net/problem/9935
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
 
-public class solve_9935 {
+public class acm_9935 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Stack<Character> s = new Stack<>();

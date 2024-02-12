@@ -1,8 +1,8 @@
-// https://www.acmicpc.net/problem/1032
+package acm;// https://www.acmicpc.net/problem/1032
 
 import java.util.Scanner;
 
-public class solve_1032 {
+public class acm_1032 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         String []commands = null;

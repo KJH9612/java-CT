@@ -1,9 +1,9 @@
-// https://www.acmicpc.net/problem/2750
+package acm;// https://www.acmicpc.net/problem/2750
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class solve_2750 {
+public class acm_2750 {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
 

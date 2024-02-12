@@ -1,11 +1,11 @@
-// https://www.acmicpc.net/problem/1083
+package acm;// https://www.acmicpc.net/problem/1083
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class solve_1083 {
+public class nacm_1083 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
@@ -18,7 +18,7 @@ public class solve_1083 {
             arr[i] = Integer.parseInt(st.nextToken());
         }
 
-        for(int i = 0; i < n; i++) {
+        for(int i = 0; i < n - 1; i++) {
             if(sort_count == current_count){
                 break;
             }
@@ -33,4 +33,7 @@ public class solve_1083 {
 
         System.out.println(Arrays.toString(arr));
     }
+
+//    public int[] proc(int []arr) {
+//    }
 }
