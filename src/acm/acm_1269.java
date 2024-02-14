@@ -1,5 +1,5 @@
 // https://www.acmicpc.net/problem/1269
-
+// edit
 package acm;
 
 import java.io.BufferedReader;
